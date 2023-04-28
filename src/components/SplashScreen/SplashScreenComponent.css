@@ -8,10 +8,6 @@ video.splash-screen-video {
     width: 100%;
 }
 
-:host{
-    background-color: black !important;
-}
-
 
 .skip-btn {
     position: fixed;
