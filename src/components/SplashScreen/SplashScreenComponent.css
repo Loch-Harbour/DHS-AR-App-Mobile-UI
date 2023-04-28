@@ -1,0 +1,23 @@
+.no-scroll::-webkit-scrollbar {
+    display: none !important;
+
+}
+
+video.splash-screen-video {
+    height: 100vh;
+    width: 100%;
+}
+
+:host{
+    background-color: black !important;
+}
+
+
+.skip-btn {
+    position: fixed;
+    left: 50%;
+    bottom: 150px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    z-index: 1;
+}

@@ -1,0 +1,1 @@
+export const SPLASH_SCREEN_LOAD_TIME = 5000;

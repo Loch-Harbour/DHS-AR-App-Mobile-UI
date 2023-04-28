@@ -1,0 +1,7 @@
+{
+  "name": "DHS-App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

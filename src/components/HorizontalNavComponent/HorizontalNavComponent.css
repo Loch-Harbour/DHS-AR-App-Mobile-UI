@@ -1,0 +1,50 @@
+.nav-container{
+    position: absolute;
+    left: 5%;
+    bottom: 20px; 
+}
+
+.nav-header {
+    text-align: left;
+    font-size: 20px;
+    color:#FFF;
+}
+.close-icon {
+    vertical-align: bottom;
+}
+
+.nav-body {
+    width: 350px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+@media screen and (min-width: 480px) {
+    .nav-body {
+        width: 100%;
+    }
+  }
+
+.nav-body::-webkit-scrollbar {
+    display: none;
+}
+
+/* .nav-body  {
+    -webkit-overflow-scrolling: touch;
+  } */
+
+.nav-body .nav-cards {
+    display: inline-block;
+}
+
+.animate__animated.animate__slideInRight {
+    --animate-duration: 0.6s;
+}
+
+.closer-look-video {
+    height:200px  !important;
+}
+.large{
+    min-height: 130px !important;
+}
