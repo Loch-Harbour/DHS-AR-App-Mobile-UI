@@ -8,6 +8,10 @@ video.splash-screen-video {
     width: 100%;
 }
 
+video.second-videos {
+    width: 100%; 
+}
+
 
 .skip-btn {
     position: fixed;

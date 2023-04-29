@@ -156,11 +156,16 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
           </IonToolbar>
         </IonHeader>
         <IonContent color="dark" className="ion-padding">
-          <iframe
-            className="closer-look-video"
-            title="ar-template"
-            src="/assets/toxic-exposure-video.html"
-          ></iframe>
+          <div>
+            <video
+              className="second-videos"
+              id="myVideo"
+              src="/assets/toxic_exposure_video.mp4"
+              autoPlay
+              loop
+              controls
+            ></video>
+          </div>
           <h3>Toxic Exposure</h3>
           <p>
             Firefighters come face to face with danger on a daily basis. It’s
@@ -190,12 +195,14 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
           </IonToolbar>
         </IonHeader>
         <IonContent color="dark" className="ion-padding">
-          <iframe
-            allow="fullscreen"
-            className="closer-look-video"
-            title="ar-template"
-            src="/assets/closer-look-video.html"
-          ></iframe>
+          <video
+            className="second-videos"
+            id="myVideo"
+            src="/assets/closer_look_video.mp4"
+            autoPlay
+            loop
+            controls
+          ></video>
           <h2>A Closer Look</h2>
           <p>
             To save the lives of first responders, S&T partnered with LION to
