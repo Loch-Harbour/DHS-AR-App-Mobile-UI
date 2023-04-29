@@ -1,4 +1,6 @@
 import React, { useState, useRef } from "react";
+import { Player, ControlBar } from "video-react";
+import "video-react/dist/video-react.css";
 import {
   IonButton,
   IonButtons,
@@ -157,14 +159,17 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
         </IonHeader>
         <IonContent color="dark" className="ion-padding">
           <div>
-            <video
+            {/* <video
               className="second-videos"
               id="myVideo"
               src="/assets/toxic_exposure_video.mp4"
               autoPlay
               loop
               controls
-            ></video>
+            ></video> */}
+            <Player autoPlay src="/assets/toxic_exposure_video.mp4">
+              <ControlBar autoHide={false} className="my-class" />
+            </Player>
           </div>
           <h3>Toxic Exposure</h3>
           <p>
