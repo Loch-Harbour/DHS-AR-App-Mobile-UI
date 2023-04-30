@@ -1,6 +1,4 @@
 import React, { useState, useRef } from "react";
-import { Player, ControlBar } from "video-react";
-import "video-react/dist/video-react.css";
 import {
   IonButton,
   IonButtons,
@@ -159,17 +157,14 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
         </IonHeader>
         <IonContent color="dark" className="ion-padding">
           <div>
-            {/* <video
+            <video
               className="second-videos"
               id="myVideo"
               src="/assets/toxic_exposure_video.mp4"
               autoPlay
               loop
               controls
-            ></video> */}
-            <Player autoPlay src="/assets/toxic_exposure_video.mp4">
-              <ControlBar autoHide={false} className="my-class" />
-            </Player>
+            ></video>
           </div>
           <h3>Toxic Exposure</h3>
           <p>
@@ -215,6 +210,27 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
             RedZone will help reduce the exposure of firefighters to toxic
             chemicals in the fireground environment.
           </p>
+          <div className="list">
+            <h5>Zone 1 -Particulate-Blocking Hood</h5>
+            <ul>
+              <li>Head and neck protected from toxic particles</li>
+              <li>Breathable fabric</li>
+              <li>Allows for excellent mobility</li>
+            </ul>
+            <h5>Zone 2 - Arm Guard</h5>
+            <li>Block particulates between the coat and the glove</li>
+            <li>Elastic wrist shields</li>
+            <h5>Zone 3 - Core Guard</h5>
+            <li>Reduces particulates between the coat and pants </li>
+            <li>Elasticized band at the core</li>
+            <h5>Zone 4 - Closure Guard</h5>
+            <li>Only one zip</li>
+            <li>No extra steps to closure Zone 5 Leg Guard</li>
+            <li>Elasticized ankle shields</li>
+            <li>
+              Protection from particulates between the pant to boot interface
+            </li>
+          </div>
         </IonContent>
       </IonModal>
 

@@ -48,3 +48,31 @@
 .large{
     min-height: 130px !important;
 }
+
+.list li {
+    font-size: 1em;
+    list-style-position: outside;
+}
+
+.list ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+.list ul {
+    /* counter-reset: foo; */
+    display: table;
+}
+
+.list li {
+    list-style: none;
+    /* counter-increment: foo; */
+    display: table-row;
+}
+
+.list li::before {
+    content: "-";
+    display: table-cell;
+    text-align: right;
+    padding-right: .3em;
+}
