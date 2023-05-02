@@ -227,7 +227,8 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
             <li>Elasticized band at the core</li>
             <h5>Zone 4 - Closure Guard</h5>
             <li>Only one zip</li>
-            <li>No extra steps to closure Zone 5 - Leg Guard</li>
+            <li>No extra steps to closure </li>
+            <h5>Zone 5 - Leg Guard</h5>
             <li>Elasticized ankle shields</li>
             <li>
               Protection from particulates between the pant to boot interface
