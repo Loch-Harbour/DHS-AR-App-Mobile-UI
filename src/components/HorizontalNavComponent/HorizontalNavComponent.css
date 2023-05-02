@@ -54,6 +54,11 @@
     list-style-position: outside;
 }
 
+.list h5 {
+    text-decoration: underline;
+    font-weight: 800;
+}
+
 .list ul,li {
     margin: 0;
     padding: 0;
@@ -75,4 +80,9 @@
     display: table-cell;
     text-align: right;
     padding-right: .3em;
+}
+
+video::-webkit-media-controls-fullscreen-button
+{
+        display: none !important;
 }

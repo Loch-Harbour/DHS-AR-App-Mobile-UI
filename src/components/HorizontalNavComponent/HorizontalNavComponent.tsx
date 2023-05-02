@@ -168,13 +168,15 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
           </div>
           <h3>Toxic Exposure</h3>
           <p>
-            Firefighters come face to face with danger on a daily basis. It’s
-            literally in the job title. But surprisingly, more firefighters die
-            years later from cancer and other diseases due to chronic exposure
-            to toxic agents, than any other cause. When toxic particulates
-            released in the fireground environment come in cont act with exposed
-            skin or penetrate interfaces in PPE coverings, the results can be
-            deadly.
+            Firefighters can't do their job without being in motion, but that's
+            exactly what can put them at risk. The protective seal on typical
+            PPE can become compromised and skin can be exposed with the standard
+            movements required to do the job. The parts of the body most at risk
+            are the wrists, ankles, core closure areas and the neck. To protect
+            against toxic particulate infiltration and exposure, S&T and its
+            partner LION have joined forced to create… RedZone: A smoke and
+            particulate resistant structural turnout ensemble, that's built to
+            do the job.
           </p>
         </IonContent>
       </IonModal>
@@ -211,7 +213,7 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
             chemicals in the fireground environment.
           </p>
           <div className="list">
-            <h5>Zone 1 -Particulate-Blocking Hood</h5>
+            <h5>Zone 1 - Particulate-Blocking Hood</h5>
             <ul>
               <li>Head and neck protected from toxic particles</li>
               <li>Breathable fabric</li>
@@ -225,7 +227,7 @@ export const HorizontalNavComponent: React.FC<NavProps> = (props) => {
             <li>Elasticized band at the core</li>
             <h5>Zone 4 - Closure Guard</h5>
             <li>Only one zip</li>
-            <li>No extra steps to closure Zone 5 Leg Guard</li>
+            <li>No extra steps to closure Zone 5 - Leg Guard</li>
             <li>Elasticized ankle shields</li>
             <li>
               Protection from particulates between the pant to boot interface
